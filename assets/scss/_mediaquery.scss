@@ -1,0 +1,95 @@
+/* MQ pags secundarias */
+@media (max-width: 768px) {
+
+
+    .playfairdisplayy{
+        font-size: 70px;
+        text-align: left;
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    .contenedor {
+          flex-direction: column;
+        }
+      
+        .text {
+          margin-left: 0;
+          margin-top: 20px;
+          font-size: 25px;
+          text-align: justify;
+        }
+        .images img{
+            flex-direction: column;
+            height: 150px;
+            width: 250px;
+        }
+      }
+    
+      /* MQ pags secundarias */
+      @media (max-width: 100px) {
+    
+    
+        .playfairdisplayy{
+            font-size: 70px;
+            text-align: left;
+            margin-left: 10px;
+            margin-right: 0px;
+        }
+        .contenedor {
+              flex-direction: column;
+            }
+          
+            .text {
+              margin-left: 0;
+              margin-top: 20px;
+              font-size: 40px;
+              text-align: justify;
+            }
+            .images img{
+                
+                height: 150px;
+                width: auto;
+            }
+          }
+    
+    /* TAMAÑO PEQUEÑO index */
+    @media  (min-height: 300px)
+    {
+    .title{
+        font-size: 70px;
+    }
+    
+    .fondo{
+        background-size: 100%;
+        background-repeat: repeat;
+    }
+    .text-body{
+        
+        margin-bottom: 0px;
+        text-align: left;
+        font-size: 80px;
+        text-justify: auto;
+        margin-right: 0px;
+         
+    }
+}
+    
+    /* TAMAÑO MAS GRANDE */
+    @media (max-height: 1500px) 
+{
+    .title{
+        font-size: 40px;
+    }
+    
+    .fondo{
+        background-size: 100%; 
+        background-repeat: no-repeat;
+        background-color: rgb(148, 143, 143);
+    }
+    
+    .text-body{
+        margin-right: 550px;
+        font-size: 30px;
+        text-align: left;
+    }
+}
