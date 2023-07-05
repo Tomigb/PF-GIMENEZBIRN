@@ -27,7 +27,7 @@ box-sizing: border-box;}
    
 }
 .playfairdisplayy{
-    margin-left: 30px;
+    margin-left: 40px;
     font-family: "PlayfairDisplay";
     margin-top: 10px;
     margin-right: 10px;
@@ -60,7 +60,7 @@ box-sizing: border-box;}
 
 .title{
     margin-top: 50px;
-    margin-left: 10px;
+    margin-left: 20px;
     text-align: left;
     font-size: 40px;
     
@@ -79,7 +79,8 @@ box-sizing: border-box;}
     display: flex;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
     Geneva, Verdana, sans-serif;
-    margin-right: 10px;
+    margin-top: px;
+    text-align: right;
     
     
 
@@ -305,12 +306,13 @@ text-align: justify;
     flex-direction: column;
     
   }
-  0
+  
 .text {
     font-family: "PlayfairDisplay";
     grid-column: 2;
     font-size: 20px;
     margin-right: 20px ;
+    text-align: justify;
   }
   
 
